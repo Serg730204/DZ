@@ -406,6 +406,9 @@ a {
   align-items: center;
   margin: 0 auto;
   margin-top: 210px;
+  background-color: rgb(252, 250, 247);
+  padding: 100px 0px;
+  
   @media (max-width: 1000px) {
     margin-top: 180px;
   }
@@ -539,6 +542,7 @@ a {
 }
 .button {
   width: 149px;
+  height: 51px;
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 300;
@@ -620,6 +624,7 @@ a {
 
 .button-more {
   width: 116px;
+  height: 51px;
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 300;
