@@ -49,7 +49,7 @@ a {
 .img-burger {
   display: none;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1220px) {
   }
   @media (max-width: 768px) {
     display: block;
@@ -60,7 +60,7 @@ a {
   }
 }
 .header-top {
-  max-width: 1220px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -507,11 +507,31 @@ a {
     }
   }
 }
-.card-blog {
+.card-blog1 {
   max-width: 542px;
   display: flex;
   gap: 20px;
     }
+
+.card-blog2 {
+  padding-left: 50px;
+  max-width: 542px;
+  display: flex;
+  gap: 20px;
+}
+
+.card-blog.card-blog-none3 {
+  max-width: 542px;
+  display: flex;
+  gap: 20px;
+}
+
+.card-blog.card-blog-none4 {
+  padding-left: 50px;
+  max-width: 542px;
+  display: flex;
+  gap: 20px;
+}
 
 .card-text {
   display: flex;
@@ -794,6 +814,22 @@ a {
 }
 .footer-touch {
   max-width: 270px;
+  position: relative;
+  left: 180px;
+  @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+    .footer-touch-class {
+      position: relative;
+      left: 0px; 
+    }
+  }
+  }
+  @media (max-width: 480px) {
+    min-height: 333px;
+  }
+  @media (max-width: 368px) {
+  }
 }
 .footer-title {
   font-size: 24px;
