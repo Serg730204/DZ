@@ -44,8 +44,8 @@ a {
   @media (max-width: 368px) {
   }
 }
-.header-sub-menu {
-}
+/*.header-sub-menu {
+}*/
 .img-burger {
   display: none;
 
@@ -459,6 +459,7 @@ a {
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 300;
+  font-style: italic;
 }
 .card-say span {
   font-family: Open Sans;
@@ -773,10 +774,8 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 100px 0;
-  /*margin-top: 150px;
-  align-items: center;*/
   flex-wrap: wrap;
-  /*gap: 30px;*/
+  
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
@@ -812,25 +811,57 @@ a {
   @media (max-width: 368px) {
   }
 }
+
 .footer-touch {
   max-width: 270px;
-  position: relative;
-  left: 180px;
+}
+  
+
   @media (max-width: 1000px) {
-  }
-  @media (max-width: 768px) {
-    .footer-touch-class {
+    .footer-touch {
+      max-width: 270px;
       position: relative;
-      left: 0px; 
-    }
-  }
-  }
-  @media (max-width: 480px) {
-    min-height: 333px;
-  }
-  @media (max-width: 368px) {
+      left: 0px;
   }
 }
+  
+  @media (max-width: 768px) {
+    .footer-touch {
+      max-width: 270px;
+      position: relative;
+      left: 180px;
+      margin-top: -150px;
+      }
+      .footer-title1 {
+        font-size: 24px;
+        font-family: "Cormorant", Regular;
+        letter-spacing: normal;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-touch {
+      max-width: 440px;
+      position: relative;
+      left: 10px;
+      margin-top: 50px;
+      }
+      .footer-title1 {
+        font-size: 24px;
+        font-family: "Cormorant", Regular;
+        letter-spacing: normal;
+        position: relative;
+      left: 140px;
+      }  
+      .footer-touch-text {
+        font-family: Open Sans;
+        font-size: 13px;
+        text-align: center;
+      }
+  }
+
+
+
 .footer-title {
   font-size: 24px;
 }
@@ -857,24 +888,41 @@ a {
   padding-bottom: 0;
 }
 
-.footer-blockquote {
-  max-width: 269px;
 
   @media (max-width: 1000px) {
+    .footer-blockquote {
+    max-width: 269px;
+  }
   }
   @media (max-width: 768px) {
+    .footer-blockquote {
+      max-width: 269px;
+    }
   }
   @media (max-width: 480px) {
-    max-width: 460px;
-
-    margin-top: 50px;
+    .footer-blog {
+      max-width: 460px;
+      margin-top: 50px;
+    
+      .footer-blockquote {
+        max-width: 460px;
+      }
+    .footer-blockquote p {
+      max-width: 460px;
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 300;
+      font-style: italic; 
+    }
+  }
   }
   @media (max-width: 368px) {
+    .footer-blockquote {
     max-width: 340px;
-
     margin-top: 40px;
   }
 }
+
 .footer-blockquote p {
   font-family: Open Sans;
   font-size: 16px;
