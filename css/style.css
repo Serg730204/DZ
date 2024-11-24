@@ -21,6 +21,15 @@ body {
 
 img {
   display: block;
+    @media (max-width: 1000px) {
+  }
+  @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 480px) {
+  }
+  @media (max-width: 368px) {
+  }
 }
 
 ul {
@@ -53,6 +62,7 @@ a {
   }
   @media (max-width: 768px) {
     display: block;
+    padding-bottom: 9px;
   }
   @media (max-width: 480px) {
   }
@@ -90,8 +100,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 10px;
+    padding: 0 64px;
     margin: 0 auto;
+    align-items: center;
   }
   @media (max-width: 480px) {
   }
@@ -122,6 +133,7 @@ a {
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
+    margin-left: 91px;
   }
   @media (max-width: 480px) {
   }
@@ -218,7 +230,8 @@ a {
 }
 .icons {
   display: flex;
-  gap: 20px;
+  gap: 23px;
+  padding-bottom: 11px;
 }
 .bg {
   margin-top: 28px;
@@ -233,17 +246,18 @@ a {
 }
 
 .header-center {
-  width: 1220px;
+  max-width: 1220px;
   padding: 0 10px;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
   gap: 20px;
   @media (max-width: 1000px) {
-    width: 980px;
+    max-widthwidth: 980px;
   }
   @media (max-width: 768px) {
-    max-width: 655px;
+    max-width: 749px;
+    padding-bottom: 9px;
   }
   @media (max-width: 480px) {
     max-width: 436px;
@@ -393,10 +407,23 @@ a {
   }
 }
 .card-tea {
+  max-width: 208px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  @media (max-width: 1000px) {
+    /* margin-top: 180px; */
+    max-width: 195px;
+  }
+  @media (max-width: 768px) {
+    max-width: 208px;
+  }
+  @media (max-width: 480px) {
+    max-width: 208px;
+  }
+  @media (max-width: 368px) {
+  }
 }
 .card-tea span {
   font-size: 24px;
@@ -449,7 +476,7 @@ a {
     justify-content: space-around;
   }
   @media (max-width: 480px) {
-    gap: 5px;
+    gap: 25px;
     padding: 7px;
   }
   @media (max-width: 368px) {
