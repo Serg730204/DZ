@@ -333,15 +333,15 @@ a {
 .container {
   width: 1220px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0px;
   @media (max-width: 1000px) {
-    width: 980px;
+    max-width: 1000px;
   }
   @media (max-width: 768px) {
-    max-width: 655px;
+    max-width: 755px;
   }
   @media (max-width: 480px) {
-    max-width: 436px;
+    max-width: 480px;
   }
   @media (max-width: 368px) {
     max-width: 350px;
@@ -380,7 +380,8 @@ a {
   margin-top: 60px;
   @media (max-width: 1000px) {
     margin-top: 30px;
-    gap: 20px;
+    gap: 0px;
+    flex-wrap: nowrap;
   }
   @media (max-width: 768px) {
     gap: 6px;
@@ -412,11 +413,13 @@ a {
   
   @media (max-width: 1000px) {
     margin-top: 180px;
+    max-width: 980px;
   }
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
     margin-top: 110px;
+    width: 480px;
   }
   @media (max-width: 368px) {
   }
@@ -428,9 +431,13 @@ a {
   align-items: center;
   gap: 26px;
   margin-top: 60px;
+  align-items: flex-start;
+  padding: 7px;
   @media (max-width: 1000px) {
+    max-width: 980px;
     .card-say-none4 {
       display: none;
+      gap: 30px;
     }
   }
   @media (max-width: 768px) {
@@ -438,8 +445,12 @@ a {
       display: block;
     }
     flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
   }
   @media (max-width: 480px) {
+    gap: 5px;
+    padding: 7px;
   }
   @media (max-width: 368px) {
     .card-say-none3 {
@@ -451,6 +462,7 @@ a {
   }
 }
 .card-say {
+  width: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -494,8 +506,9 @@ a {
   gap: 40px;
   margin-top: 60px;
   @media (max-width: 1000px) {
-    gap: 67px;
-  }
+    gap: 55px;
+    padding: 10px;
+      }
   @media (max-width: 768px) {
     gap: 30px;
   }
@@ -511,15 +524,31 @@ a {
   }
 }
 .card-blog1 {
-  max-width: 542px;
+  max-width: 460px;
   display: flex;
   gap: 20px;
+    }
+    @media (max-width: 1000px) {
+      .card-blog1 {
+        padding-left: 0px;
+        max-width: 460px;
+        display: flex;
+        gap: 5px;
+      }
+    }
+    @media (max-width: 768px) {
+      .card-blog1 {
+        padding-left: 0px;
+        max-width: 542px;
+        display: flex;
+        gap: 5px;
+      }
     }
 
     @media (max-width: 480px) {
       .card-blog1 {
         padding-left: 0px;
-        max-width: 542px;
+        max-width: 460px;
         display: flex;
         gap: 20px;
         }
@@ -527,29 +556,62 @@ a {
 
 .card-blog2 {
   padding-left: 50px;
-  max-width: 542px;
+  max-width: 460px;
   display: flex;
   gap: 20px;
 }
+@media (max-width: 1000px) {
+  .card-blog2 {
+    padding-left: 0px;
+    max-width: 460px;
+    display: flex;
+    gap: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .card-blog2 {
+    padding-left: 50px;
+    max-width: 542px;
+    display: flex;
+    gap: 5px;
+  }
+}
+
 @media (max-width: 480px) {
   .card-blog2 {
     padding-left: 0px;
-    max-width: 542px;
+    max-width: 460px;
     display: flex;
     gap: 20px;
   }
 }
 
 .card-blog.card-blog-none3 {
-  max-width: 542px;
+  max-width: 460px;
   display: flex;
   gap: 20px;
+}
+@media (max-width: 1000px) {
+  .card-blog.card-blog-none3 {
+    padding-left: 0px;
+    max-width: 460px;
+    display: flex;
+    gap: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .card-blog.card-blog-none3 {
+    padding-left: 0px;
+    max-width: 542px;
+    display: flex;
+    gap: 5px;
+  }
 }
 
 @media (max-width: 480px) {
   .card-blog.card-blog-none3 {
     padding-left: 0px;
-    max-width: 542px;
+    max-width: 460px;
     display: flex;
     gap: 20px;
   }
@@ -557,15 +619,31 @@ a {
 
 .card-blog.card-blog-none4 {
   padding-left: 50px;
-  max-width: 542px;
+  max-width: 460px;
   display: flex;
   gap: 20px;
+}
+@media (max-width: 1000px) {
+  .card-blog.card-blog-none4 {
+    padding-left: 0px;
+    max-width: 460px;
+    display: flex;
+    gap: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .card-blog.card-blog-none4 {
+    padding-left: 50px;
+    max-width: 542px;
+    display: flex;
+    gap: 5px;
+  }
 }
 
 @media (max-width: 480px) {
   .card-blog.card-blog-none4 {
     padding-left: 0px;
-    max-width: 542px;
+    max-width: 460px;
     display: flex;
     gap: 20px;
   }
@@ -598,7 +676,7 @@ a {
   font-weight: 300;
 }
 .read {
-  margin-top: 48px;
+  margin-top: 30px;
   display: flex;
 }
 @media (max-width: 480px) {
@@ -754,12 +832,17 @@ a {
   margin-top: 60px;
   justify-content: space-between;
   @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-around;
   }
   @media (max-width: 768px) {
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   @media (max-width: 480px) {
     margin-top: 30px;
+    justify-content: space-around;
   }
   @media (max-width: 368px) {
   }
@@ -794,6 +877,7 @@ a {
   @media (max-width: 768px) {
   }
   @media (max-width: 480px) {
+    
   }
   @media (max-width: 368px) {
     font-size: 10px;
@@ -828,6 +912,7 @@ a {
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
+    gap: 20px;
   }
   @media (max-width: 480px) {
   }
@@ -878,7 +963,7 @@ a {
     .footer-touch {
       max-width: 270px;
       position: relative;
-      left: 180px;
+      left: 220px;
       margin-top: -150px;
       }
       .footer-title1 {
