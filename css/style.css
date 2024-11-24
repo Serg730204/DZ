@@ -346,6 +346,9 @@ a {
   line-height: 1;
   text-align: center;
   font-style: italic;
+  mark {
+    background-color: rgb(252, 250, 247);}
+
   @media (max-width: 1000px) {
     
   }
@@ -355,11 +358,9 @@ a {
     }
     line-height: 1.2;
     max-width: 640px;
-    
-  }
+    }
   @media (max-width: 480px) {
     font-size: 16px;
-    
   }
     @media (max-width: 368px) {
   }
