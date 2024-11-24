@@ -421,6 +421,7 @@ a {
   @media (max-width: 768px) {
     gap: 6px;
     flex-wrap: wrap;
+    margin-top: 47px;
   }
   @media (max-width: 480px) {
   }
@@ -464,6 +465,8 @@ a {
     max-width: 980px;
   }
   @media (max-width: 768px) {
+    margin-top: 76px;
+    gap: 5px;
   }
   @media (max-width: 480px) {
     margin-top: 110px;
@@ -493,7 +496,7 @@ a {
       display: block;
     }
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 15px;
     justify-content: space-around;
   }
   @media (max-width: 480px) {
@@ -510,12 +513,24 @@ a {
   }
 }
 .card-say {
-  width: 220px;
+  max-width: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-}
+  @media (max-width: 1000px) {
+    max-width: 980px;
+  }
+  @media (max-width: 768px) {
+    max-width: 250px;
+  }
+  @media (max-width: 480px) {
+    gap: 25px;
+    padding: 7px;
+  }
+  @media (max-width: 368px) {
+    }
+  }
 .card-say p {
   font-family: Open Sans;
   font-size: 16px;
@@ -538,6 +553,7 @@ a {
     margin-top: 120px;
   }
   @media (max-width: 768px) {
+    margin-top: 98px;
   }
   @media (max-width: 480px) {
     margin-top: 60px;
@@ -559,6 +575,9 @@ a {
       }
   @media (max-width: 768px) {
     gap: 30px;
+    padding-left: 50px;
+    margin-left: 25px;
+    padding: 0px;
   }
   @media (max-width: 480px) {
     gap: 20px;
@@ -586,10 +605,11 @@ a {
     }
     @media (max-width: 768px) {
       .card-blog1 {
-        padding-left: 0px;
-        max-width: 542px;
+        margin-top: 5px;
+        padding-left: 31px;
+        max-width: 575px;
         display: flex;
-        gap: 5px;
+        gap: 20px;
       }
     }
 
@@ -618,10 +638,10 @@ a {
 }
 @media (max-width: 768px) {
   .card-blog2 {
-    padding-left: 50px;
-    max-width: 542px;
+    padding-left: 130px;
+    max-width: 675px;
     display: flex;
-    gap: 5px;
+    gap: 20px;
   }
 }
 
@@ -649,10 +669,11 @@ a {
 }
 @media (max-width: 768px) {
   .card-blog.card-blog-none3 {
-    padding-left: 0px;
-    max-width: 542px;
+    margin-top: -1px;
+    padding-left: 31px;
+    max-width: 575px;
     display: flex;
-    gap: 5px;
+    gap: 20px;
   }
 }
 
@@ -681,12 +702,12 @@ a {
 }
 @media (max-width: 768px) {
   .card-blog.card-blog-none4 {
-    padding-left: 50px;
-    max-width: 542px;
+    padding-left: 130px;
+    max-width: 675px;
     display: flex;
-    gap: 5px;
+    gap: 20px;
   }
-}
+  }
 
 @media (max-width: 480px) {
   .card-blog.card-blog-none4 {
@@ -756,6 +777,7 @@ a {
     margin-top: 120px;
   }
   @media (max-width: 768px) {
+    margin-top: 175px;
   }
   @media (max-width: 480px) {
     margin-top: 60px;
@@ -775,8 +797,9 @@ a {
     max-width: 980px;
   }
   @media (max-width: 768px) {
-    max-width: 655px;
+    max-width: 605px;
     flex-wrap: wrap;
+    gap: 2px;
   }
   @media (max-width: 480px) {
     max-width: 436px;
@@ -836,6 +859,7 @@ a {
     margin-top: 60px;
   }
   @media (max-width: 768px) {
+    padding-left: 25px;
   }
   @media (max-width: 480px) {
     gap: 30px;
@@ -866,6 +890,8 @@ a {
     margin-top: 120px;
   }
   @media (max-width: 768px) {
+    margin-top: 175px;
+    padding-left: 8px;
   }
   @media (max-width: 480px) {
     margin-top: 60px;
@@ -887,6 +913,7 @@ a {
   @media (max-width: 768px) {
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 32px;
   }
   @media (max-width: 480px) {
     margin-top: 30px;
@@ -942,6 +969,7 @@ a {
     margin-top: 120px;
   }
   @media (max-width: 768px) {
+    margin-top: 120px;
   }
   @media (max-width: 480px) {
     margin-top: 60px;
@@ -954,13 +982,14 @@ a {
 .footer-wrapper {
   display: flex;
   justify-content: space-around;
-  padding: 100px 0;
+  padding: 38px 0;
   flex-wrap: wrap;
   
   @media (max-width: 1000px) {
   }
   @media (max-width: 768px) {
     gap: 20px;
+    justify-content: space-evenly;
   }
   @media (max-width: 480px) {
   }
@@ -1011,8 +1040,8 @@ a {
     .footer-touch {
       max-width: 270px;
       position: relative;
-      left: 220px;
-      margin-top: -150px;
+      left: 185px;
+      margin-top: -168px;
       }
       .footer-title1 {
         font-size: 24px;
@@ -1084,6 +1113,7 @@ a {
   @media (max-width: 768px) {
     .footer-blockquote {
       max-width: 269px;
+      padding-right: 26px;
     }
   }
   @media (max-width: 480px) {
@@ -1177,7 +1207,8 @@ a {
     gap: 20px;
     justify-content: flex-start;
     margin-right: 25px;
-    
+    justify-content: flex-end;
+    padding-top: 15px;
 }
 }
 @media (max-width: 480px) {
