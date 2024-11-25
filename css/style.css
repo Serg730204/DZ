@@ -123,8 +123,11 @@ a {
     padding: 10px;
     padding-bottom: 0px;
     align-items: center;
-  }
-  @media (max-width: 368px) {
+    @media (max-width: 368px) {
+      &nbsp {
+      display: none;
+      }
+    }
   }
 }
 
@@ -295,7 +298,7 @@ a {
     }
   }
   @media (max-width: 368px) {
-    max-width: 406px;
+    max-width: 350px;
     gap: 10px;
   }
 }
@@ -413,7 +416,7 @@ a {
     max-width: 480px;
   }
   @media (max-width: 368px) {
-    max-width: 350px;
+    max-width: 338px;
   }
 }
 .collection-tea {
@@ -430,13 +433,15 @@ a {
   @media (max-width: 480px) {
     margin-top: 47px;
   }
-  @media (max-width: 368px) {
-  }
+
 }
 .titlle {
   font-size: 40px;
   font-weight: normal;
   line-height: 1;
+  @media (max-width: 368px) {
+    font-size: 24px;
+  }
 }
 
 .cards-wrapper-tea {
@@ -513,6 +518,7 @@ a {
     padding: 50px 0px;
   }
   @media (max-width: 368px) {
+    max-width: 338px;
   }
 }
 
@@ -545,12 +551,16 @@ a {
     margin-top: 35px;
   }
   @media (max-width: 368px) {
-    .card-say-none3 {
+    max-width: 368px;
+     .card-say-none3 {
       display: none;
     }
-    .card-say-none4 {
+     .card-say-none4 { 
       display: none;
     }
+    justify-content: flex-start;
+    gap: 25px;
+
   }
 }
 .card-say {
@@ -628,6 +638,7 @@ a {
     gap: 20px;
   }
   @media (max-width: 368px) {
+    max-width: 270px;
     margin-top: 30px;
     .card-blog-none3,
     .card-blog-none4 {
@@ -666,6 +677,15 @@ a {
         gap: 20px;
         }
     }
+    @media (max-width: 368px) {
+      .card-blog1 {
+        padding-left: 0px;
+        max-width: 460px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        }
+      }
 
 .card-blog2 {
   padding-left: 50px;
@@ -699,6 +719,15 @@ a {
   }
 }
 
+@media (max-width: 368px) {
+  .card-blog2 {
+    padding-left: 0px;
+    max-width: 460px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
 .card-blog.card-blog-none3 {
   max-width: 460px;
   display: flex;
@@ -731,6 +760,15 @@ a {
   }
 }
 
+@media (max-width: 368px) {
+  .card-blog.card-blog-none3 {
+    padding-left: 0px;
+    max-width: 460px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
 .card-blog.card-blog-none4 {
   padding-left: 50px;
   max-width: 460px;
@@ -763,6 +801,15 @@ a {
   }
 }
 
+@media (max-width: 368px) {
+  .card-blog.card-blog-none4 {
+    padding-left: 0px;
+    max-width: 460px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
 .card-text {
   display: flex;
   flex-direction: column;
@@ -1044,9 +1091,9 @@ a {
   }
   @media (max-width: 480px) {
     gap: 17px;
-   
   }
   @media (max-width: 368px) {
+    gap: 10px;
   }
 }
 
@@ -1061,6 +1108,7 @@ a {
     margin-left: -75px;
   }
   @media (max-width: 368px) {
+    margin-left: 0px;
   }
 }
 .footer-company {
@@ -1280,6 +1328,9 @@ a {
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
+    margin-right: 25px;
+    justify-content: flex-end;
+        padding-top: 15px;
 }
 }
 
@@ -1302,6 +1353,16 @@ a {
     justify-content: flex-end;
     margin-top: -75px;
     padding-bottom: 50px;
+}
+}
+@media (max-width: 368px) {
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-top: 85px;
+    justify-content: space-evenly;
 }
 }
 
